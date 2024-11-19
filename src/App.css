@@ -1,0 +1,8 @@
+*{
+   margin: 4px;
+   padding: 4px;
+}
+
+.crossed {
+   text-decoration: line-through;
+ }
