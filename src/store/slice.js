@@ -10,7 +10,7 @@ const loadFromLocalStorage = () => {
       ? JSON.parse(savedState)
       : [
            {
-              title: "Скласти розпорядок.",
+              title: "Make a routine.",
               id: 1,
               checked: false,
            },
