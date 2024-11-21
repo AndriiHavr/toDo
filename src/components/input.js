@@ -17,9 +17,9 @@ const AddPostForm = () => {
  }
 
    return(
-      <form onSubmit={handleSubmit}>
-         <input type="text" value={title} onChange={(e)=> setTitle(e.target.value)} />
-         <button type="submit">Додати завдання</button>
+      <form onSubmit={handleSubmit} style={{marginLeft: '15px'}}>
+         <input type="text" className="main_input" value={title} onChange={(e)=> setTitle(e.target.value)} />
+         <button type="submit">Add task</button>
       </form>
    )
 }
