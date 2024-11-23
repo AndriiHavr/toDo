@@ -41,7 +41,7 @@ const PostList = () => {
                         onKeyDown={(e) =>
                            e.key === "Enter" && handleSave(post.id)
                         }
-                        style={{ position: "absolute", left: "26px" }}
+                        style={{ position: "absolute", left: "26px", height: "30px",width:"300px", fontSize: "16px" }}
                         autoFocus
                      />
                   ) : (
